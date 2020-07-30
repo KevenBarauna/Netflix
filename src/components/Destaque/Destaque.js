@@ -11,15 +11,6 @@ const Destaque = (props) => {
         padrao, //TRUE = IMAGEM ESQUERDA | FALSE = IMAGEM DIREITA [BOOL]
     } = props;
 
-    function getClassName(nomeClasse) {
-        if (nomeClasse === 'destaque-titulo') {
-            if (props.padrao === false) { return 'destaque-titulo-false' } else { return 'destaque-titulo-true'; }
-        }
-        else if (nomeClasse === 'destaque-sub-titulo') {
-            if (props.padrao === false) { return 'destaque-sub-titulo-false' } else { return 'destaque-sub-titulo-true'; }
-        }
-        return 'destaque-titulo-true';
-    }
 
     return (
         <div className='destaque-background'>
@@ -27,8 +18,8 @@ const Destaque = (props) => {
                 <Col>
                     {padrao === true ? (
                         <>
-                            <p className={getClassName('destaque-titulo')}>{props.titulo}</p>
-                            <p className={getClassName('destaque-sub-titulo')}>{props.subTitulo}</p>
+                            <p className='destaque-titulo' style={{ marginLeft: '50%' }}>{props.titulo}</p>
+                            <p className='destaque-sub-titulo' style={{ marginLeft: '50%' }}>{props.subTitulo}</p>
                         </>
                     ) : (
                             <img style={{ height: '300px', marginLeft: '41%' }} src={props.imagem} alt={props.altImagem}></img>
@@ -41,8 +32,8 @@ const Destaque = (props) => {
                         <img style={{ height: '300px' }} src={props.imagem} alt={props.altImagem}></img>
                     ) : (
                             <>
-                                <p className={getClassName('destaque-titulo')}>{props.titulo}</p>
-                                <p className={getClassName('destaque-sub-titulo')}>{props.subTitulo}</p>
+                                <p className='destaque-titulo' style={{ marginRight: '50%' }}>{props.titulo}</p>
+                                <p className='destaque-sub-titulo' style={{ marginRight: '50%' }}>{props.subTitulo}</p>
                             </>
                         )}
                 </Col>

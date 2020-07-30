@@ -29,7 +29,7 @@ Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo no navega
 *Exemplo, no import do react:* 
 `font-size: 12pt;'; no lugar de  ~~font-size: 20px;~~`<br>
 
-# Dicas :thumbsup:
+# Dicas :speech_balloon:
 Para criar a logo online você pode fazer no [fontmeme](https://fontmeme.com/netflix-font/)<br>
 Para entender mais é possível assistir um mini curso em [Alura](https://www.alura.com.br/imersao-react/aula01-react-aluraflix)<br>
 
