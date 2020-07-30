@@ -1,0 +1,38 @@
+/* ----- ZERANDO CSS PADRÃO ----- */
+p{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+/* -----  ----- */
+
+.destaque-container{
+   height: 70%;
+   width: 50%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: auto;
+   margin-bottom: auto;
+}
+
+.destaque-background{
+    display: flex;
+    background-color: #000000;
+    height: 450px;
+    padding: 10px;
+    border-top: 10px solid #1a1a1a;
+}
+
+.destaque-titulo{
+    color: #ffffff;
+    font-size: 35pt;
+    font-weight: 600;
+    margin-left: 50%;
+    padding-bottom: 20px;
+}
+
+.destaque-sub-titulo{
+    color: #ffffff;
+    font-size: 16pt;
+    width: 35%;
+    margin-left: 50%;
+}
