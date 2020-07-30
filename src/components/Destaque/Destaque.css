@@ -22,7 +22,7 @@ p{
     border-top: 10px solid #1a1a1a;
 }
 
-.destaque-titulo{
+.destaque-titulo-true{
     color: #ffffff;
     font-size: 35pt;
     font-weight: 600;
@@ -30,9 +30,24 @@ p{
     padding-bottom: 20px;
 }
 
-.destaque-sub-titulo{
+.destaque-sub-titulo-true{
     color: #ffffff;
     font-size: 16pt;
     width: 35%;
     margin-left: 50%;
+}
+
+.destaque-titulo-false{
+    color: #ffffff;
+    font-size: 35pt;
+    font-weight: 600;
+    margin-right: 50%;
+    padding-bottom: 20px;
+}
+
+.destaque-sub-titulo-false{
+    color: #ffffff;
+    font-size: 16pt;
+    width: 35%;
+    margin-right: 50%;
 }
