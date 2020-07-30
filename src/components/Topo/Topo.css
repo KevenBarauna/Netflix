@@ -1,0 +1,42 @@
+.topo-imagem-logo{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.topo-header{
+    width: 100%;
+    background-color: #141414;
+}
+
+.topo-nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+.topo-nav a{
+    text-transform: uppercase;
+    color: #DB202C;
+    font-weight: bold;
+    font-size: 12pt;
+    text-decoration: none;
+    transition: color 5s;
+}
+
+.topo-nav a:hover{
+color:#660007;
+}
+
+.topo-menu-item{
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 40px;
+    text-align: center;
+}
+
+.topo-div-imagem{
+    margin-left: auto;
+    margin-right: auto;
+    width: 177px;
+}

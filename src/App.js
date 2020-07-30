@@ -1,15 +1,10 @@
 import React from 'react';
 import './App.css';
+import Topo from './components/Topo/Topo';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          KevenFlix
-        </p>
-      </header>
-    </div>
+    <Topo />
   );
 }
 
