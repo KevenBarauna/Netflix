@@ -4,10 +4,16 @@ Este projeto foi iniciado com o [Create React App](https://github.com/facebook/c
  `$ npx create-react-app kevenflix`
 
 ### Requisistos: :pencil:
-- [Node js](https://nodejs.org/en/) - *Versão do projeto: v12.18.3* - *Para ver a versão instalada:* `$ node -v`
+- [Node js](https://nodejs.org/en/)
 
 ### Tecnologias: :mag:
-- [react-bootstrap](https://react-bootstrap.github.io/getting-started/introduction) - `npm install react-bootstrap bootstrap`
+- [react-bootstrap](https://react-bootstrap.github.io/getting-started/introduction)  
+- [react-router-dom](https://reactrouter.com/web/guides/quick-start)
+
+```
+`npm install react-bootstrap bootstrap`
+`npm install react-router-dom`
+```
 
 ### Iniciar o projeto :outbox_tray:
 No diretório do projeto, você pode executar:<br>
