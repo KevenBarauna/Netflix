@@ -1,4 +1,6 @@
 .footer-col{
+  padding-top: 30px;
+  padding-bottom: 10px;
   color: #757575;
   width: 20%;
   display: inline-block;
@@ -28,9 +30,4 @@
 .footer-col a{
     color: #757575;
     text-decoration: none;
-}
-
-.footer-select-linguagem{
-    height: 35px;
-    margin-left: 40px;
 }

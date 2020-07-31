@@ -44,7 +44,7 @@ function Footer() {
                 </Col >
                 <Col className='footer-col'>
                     <Form.Group as={Col} controlId="formGridState">
-                        <Form.Control as="select" defaultValue="Português" className='footer-select-linguagem'>
+                        <Form.Control as="select" defaultValue="Português">
                             <option>Português</option>
                             <option>English</option>
                         </Form.Control>
