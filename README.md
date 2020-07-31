@@ -48,3 +48,6 @@ Para entender mais é possível assistir um mini curso em [Alura](https://www.al
 # Cores :art:
 Preto - #141414<br>
 Vermelho - #DB202C<br>
+
+# Fonte :a:
+Página 404 - [Poppins](https://fonts.google.com/specimen/Poppins?preview.text=P%C3%A1gina+404&preview.text_type=custom&sidebar.open=true&selection.family=Poppins:wght@300;400;600)

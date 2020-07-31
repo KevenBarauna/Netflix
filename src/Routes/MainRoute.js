@@ -2,16 +2,18 @@ import React from 'react';
 import { BrowserRouter, Router, Route } from 'react-router-dom';
 import Switch from 'react-bootstrap/esm/Switch';
 
+import Page404 from './../view/Page404';
 import Home from './../view/Home';
 
 const MainRoute = () => (
-    // {window.location.href}
-    <BrowserRouter>
+    < BrowserRouter >
         <Switch>
-            <Route path='/' component={Home} />
+            {console.log(window.location.href)}
             <Route path='/home' component={Home} />
+            <Route path='/' component={Page404} exact />
+            <Route component={Page404} />
         </Switch>
-    </BrowserRouter>
+    </BrowserRouter >
 );
 
 export default MainRoute;
