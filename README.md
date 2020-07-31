@@ -11,8 +11,8 @@ Este projeto foi iniciado com o [Create React App](https://github.com/facebook/c
 - [react-router-dom](https://reactrouter.com/web/guides/quick-start)
 
 ```
-`npm install react-bootstrap bootstrap`
-`npm install react-router-dom`
+npm install react-bootstrap bootstrap
+npm install react-router-dom
 ```
 
 ### Iniciar o projeto :outbox_tray:
@@ -24,21 +24,27 @@ Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo no navega
 
 # Padrão pessoal :bowtie:
 - Toda classe de css deve começar com o nome do componente e separado por traço.<br>
-*Exemplo, no componente topo, a classe de style que cuida da imagem do topo:*<br> 
+<sub>Exemplo: No componente topo, a classe de style que cuida da imagem do topo:</sub><br> 
 ```
-.topo-imagem-logo no lugar de .imagem-logo
+.topo-imagem-logo 
+no lugar de 
+.imagem-logo
 ```
 
 - Usar aspas simples.<br>
-*Exemplo, no import do react:* 
+<sub>Exemplo: no import do react:</sub>
 ```
-import React from 'react'; no lugar de  import React from "react";
+import React from 'react'; 
+no lugar de  
+import React from "react";
 ```
 
 - Usar pt para tamanho de fonte no css.<br>
-*Exemplo, no import do react:* 
+<sub>Exemplo: no import do react:</sub> 
 ```
-font-size: 12pt;'; no lugar de font-size: 20px;
+font-size: 12pt; 
+no lugar de 
+font-size: 20px;
 ```
 
 # Dicas :speech_balloon:
