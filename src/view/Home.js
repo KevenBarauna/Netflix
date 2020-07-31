@@ -42,8 +42,4 @@ class Home extends React.Component {
     }
 }
 
-const mapStateToPros = (state) => ({
-
-});
-
 export default Home;

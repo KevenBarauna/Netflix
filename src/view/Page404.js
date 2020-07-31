@@ -13,8 +13,4 @@ class Page404 extends React.Component {
     }
 }
 
-const mapStateToPros = (state) => ({
-
-});
-
 export default Page404;

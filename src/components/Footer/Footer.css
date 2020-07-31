@@ -25,6 +25,11 @@
     list-style-type: none;
 }
 
+.footer-col a{
+    color: #757575;
+    text-decoration: none;
+}
+
 .footer-select-linguagem{
     height: 35px;
     margin-left: 40px;

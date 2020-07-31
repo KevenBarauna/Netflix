@@ -7,7 +7,6 @@ import Home from './../view/Home';
 const MainRoute = () => (
     < BrowserRouter >
         <Switch>
-            {console.log(window.location.href)}
             <Route path='/home' component={Home} />
             <Route path='/' component={Home} exact />
             <Route path='/404' component={Page404} />

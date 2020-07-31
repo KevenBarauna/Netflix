@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Col, Form } from 'react-bootstrap'
+import { Link } from 'react-router-dom';
 import './Footer.css'
-// import imagemLogo from './../../assets/img/logo.png'
 
 
 function Footer() {
@@ -10,36 +10,36 @@ function Footer() {
             <Row className='footer-row'>
                 <Col className='footer-col'>
                     <ul>
-                        <li><a>Dúvidas? Ligue 0800-761-4631</a></li>
-                        <li><a>Perguntas frequentes</a></li>
-                        <li><a>Relações com investidores</a></li>
-                        <li><a>Formas de assistir</a></li>
-                        <li><a>Informações corporativas</a></li>
-                        <li><a>Originais Netflix</a></li>
+                        <li><Link to='/404'>Dúvidas? Ligue 0800-761-4631</Link></li>
+                        <li><Link to='/404'>Perguntas frequentes</Link></li>
+                        <li><Link to='/404'>Relações com investidores</Link></li>
+                        <li><Link to='/404'>Formas de assistir</Link></li>
+                        <li><Link to='/404'>Informações corporativas</Link></li>
+                        <li><Link to='/404'>Originais Netflix</Link></li>
                     </ul>
                 </Col>
                 <Col className='footer-col'>
                     <ul>
-                        <li><a>Centro de ajuda</a></li>
-                        <li><a>Carreiras</a></li>
-                        <li><a>Termos de uso</a></li>
-                        <li><a>Entre em contato</a></li>
+                        <li><Link to='/404'>Centro de ajuda</Link></li>
+                        <li><Link to='/404'>Carreiras</Link></li>
+                        <li><Link to='/404'>Termos de uso</Link></li>
+                        <li><Link to='/404'>Entre em contato</Link></li>
                     </ul>
                 </Col>
                 <Col className='footer-col'>
                     <ul>
-                        <li><a>Conta</a></li>
-                        <li><a>Resgatar cartão pré-pago</a></li>
-                        <li><a>Privacidade</a></li>
-                        <li><a>Teste de velocidade</a></li>
+                        <li><Link to='/404'>Conta</Link></li>
+                        <li><Link to='/404'>Resgatar cartão pré-pago</Link></li>
+                        <li><Link to='/404'>Privacidade</Link></li>
+                        <li><Link to='/404'>Teste de velocidade</Link></li>
                     </ul>
                 </Col >
                 <Col className='footer-col'>
                     <ul>
-                        <li><a>Imprensa</a></li>
-                        <li><a>Comprar cartão pré-pago</a></li>
-                        <li><a>Preferências de cookies</a></li>
-                        <li><a>Avisos legais</a></li >
+                        <li><Link to='/404'>Imprensa</Link></li>
+                        <li><Link to='/404'>Comprar cartão pré-pago</Link></li>
+                        <li><Link to='/404'>Preferências de cookies</Link></li>
+                        <li><Link to='/404'>Avisos legais</Link></li >
                     </ul>
                 </Col >
                 <Col className='footer-col'>

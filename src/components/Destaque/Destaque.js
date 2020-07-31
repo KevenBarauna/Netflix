@@ -18,22 +18,22 @@ const Destaque = (props) => {
                 <Col>
                     {padrao === true ? (
                         <>
-                            <p className='destaque-titulo' style={{ marginLeft: '50%' }}>{props.titulo}</p>
-                            <p className='destaque-sub-titulo' style={{ marginLeft: '50%' }}>{props.subTitulo}</p>
+                            <p className='destaque-titulo' style={{ marginLeft: '50%' }}>{titulo}</p>
+                            <p className='destaque-sub-titulo' style={{ marginLeft: '50%' }}>{subTitulo}</p>
                         </>
                     ) : (
-                            <img style={{ height: '300px', marginLeft: '41%' }} src={props.imagem} alt={props.altImagem}></img>
+                            <img style={{ height: '300px', marginLeft: '41%' }} src={imagem} alt={altImagem}></img>
                         )}
                 </Col >
             </Row>
             <Row className='destaque-container'>
                 <Col >
                     {padrao === true ? (
-                        <img style={{ height: '300px' }} src={props.imagem} alt={props.altImagem}></img>
+                        <img style={{ height: '300px' }} src={imagem} alt={altImagem}></img>
                     ) : (
                             <>
-                                <p className='destaque-titulo' style={{ marginRight: '50%' }}>{props.titulo}</p>
-                                <p className='destaque-sub-titulo' style={{ marginRight: '50%' }}>{props.subTitulo}</p>
+                                <p className='destaque-titulo' style={{ marginRight: '50%' }}>{titulo}</p>
+                                <p className='destaque-sub-titulo' style={{ marginRight: '50%' }}>{subTitulo}</p>
                             </>
                         )}
                 </Col>
