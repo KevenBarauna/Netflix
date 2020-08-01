@@ -25,9 +25,16 @@
 
 .footer-col ul{
     list-style-type: none;
+    padding-left: 0px;
 }
 
 .footer-col a{
     color: #757575;
     text-decoration: none;
+}
+
+@media only screen and (max-width: 375px) {
+    .footer-col{
+        font-size: 7pt;
+    }
 }

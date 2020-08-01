@@ -13,32 +13,28 @@ const Destaque = (props) => {
 
 
     return (
-        <div className='destaque-background'>
-            <Row className='destaque-container'>
-                <Col>
-                    {padrao === true ? (
+        <Row className='destaque-background'>
+            <Col sm={12} md={6} lg={6}>
+                {padrao === true ? (
+                    <>
+                        <p className='destaque-titulo' style={{ marginLeft: '50%' }}>{titulo}</p>
+                        <p className='destaque-sub-titulo' style={{ marginLeft: '50%' }}>{subTitulo}</p>
+                    </>
+                ) : (
+                        <img className='destaque-imagem' style={{ marginLeft: '41%' }} src={imagem} alt={altImagem}></img>
+                    )}
+            </Col >
+            <Col sm={12} md={6} lg={6}>
+                {padrao === true ? (
+                    <img className='destaque-imagem' src={imagem} alt={altImagem}></img>
+                ) : (
                         <>
-                            <p className='destaque-titulo' style={{ marginLeft: '50%' }}>{titulo}</p>
-                            <p className='destaque-sub-titulo' style={{ marginLeft: '50%' }}>{subTitulo}</p>
+                            <p className='destaque-titulo' style={{ marginRight: '50%' }}>{titulo}</p>
+                            <p className='destaque-sub-titulo' style={{ marginRight: '50%' }}>{subTitulo}</p>
                         </>
-                    ) : (
-                            <img style={{ height: '300px', marginLeft: '41%' }} src={imagem} alt={altImagem}></img>
-                        )}
-                </Col >
-            </Row>
-            <Row className='destaque-container'>
-                <Col >
-                    {padrao === true ? (
-                        <img style={{ height: '300px' }} src={imagem} alt={altImagem}></img>
-                    ) : (
-                            <>
-                                <p className='destaque-titulo' style={{ marginRight: '50%' }}>{titulo}</p>
-                                <p className='destaque-sub-titulo' style={{ marginRight: '50%' }}>{subTitulo}</p>
-                            </>
-                        )}
-                </Col>
-            </Row>
-        </div>
+                    )}
+            </Col>
+        </Row>
     );
 }
 

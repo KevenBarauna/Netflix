@@ -9,18 +9,18 @@ function Topo() {
     return (
         <header className='topo-header'>
             <Row style={{ padding: '10px' }}>
-                <Col className='topo-div-imagem'>
+                <Col className='topo-div-imagem' sm={12} md={4} lg={4}>
                     <Link to='/home'>
                         <img className='topo-imagem-logo' src={imagemLogo} alt='logo KevenFlix' ></img>
                     </Link>
                 </Col>
-                <Col className='topo-nav'>
-                    <div>
+                <Col className='topo-nav' sm={12} md={8} lg={8}>
+                    <Row>
                         <li><Link to='/404'>Alura</Link></li>
                         <li><Link to='/404'>Udemy</Link></li>
                         <li><Link to='/404'>Youtube</Link></li>
                         <li><Link to='/404'>Outros</Link></li>
-                    </div>
+                    </Row>
                 </Col>
             </Row>
         </header>
