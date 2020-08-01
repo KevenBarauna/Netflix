@@ -39,4 +39,23 @@
 color:#660007;
 }
 
+@media only screen and (max-width: 745px) {
+    .topo-imagem-logo{
+        margin-left: 45%;
+    }
+
+    .topo-item{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .topo-btn-login{
+        margin-left: 45%;
+        width: 20%;
+    }
+}
+
+
+
 

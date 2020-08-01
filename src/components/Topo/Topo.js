@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Topo.css';
 import imagemLogo from './../../assets/img/logo.png';
@@ -14,12 +14,19 @@ function Topo() {
                         <img className='topo-imagem-logo' src={imagemLogo} alt='logo KevenFlix' ></img>
                     </Link>
                 </Col>
-                <Col className='topo-nav' sm={12} md={8} lg={8}>
-                    <Row>
+                <Col className='topo-nav' sm={12} md={7} lg={7}>
+                    <Row className='topo-item'>
                         <li><Link to='/404'>Alura</Link></li>
                         <li><Link to='/404'>Udemy</Link></li>
                         <li><Link to='/404'>Youtube</Link></li>
                         <li><Link to='/404'>Outros</Link></li>
+                    </Row>
+                </Col>
+                <Col className='topo-nav' sm={12} md={1} lg={1}>
+                    <Row className='topo-item topo-btn-login'>
+                        <Link to='/login'>
+                            <Button variant="outline-danger">Login</Button>{' '}
+                        </Link>
                     </Row>
                 </Col>
             </Row>

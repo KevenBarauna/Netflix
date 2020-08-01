@@ -50,5 +50,9 @@ p{
     .destaque-titulo{
         font-size: 15pt !important;
     }
+
+    .destaque-imagem{
+        margin-left: 10% !important;
+    }
     
 }
