@@ -1,10 +1,10 @@
 import * as React from 'react';
 import Topo from './../components/Topo/Topo';
 import Footer from './../components/Footer/Footer';
-import ComponentCursoAlura from './../components/Cursos/Cursos';
+import ComponentDica from './../components/Dicas/Dicas';
 
 
-class CursoAlura extends React.Component {
+class Dica extends React.Component {
     componentDidMount() { }
 
     render() {
@@ -12,7 +12,7 @@ class CursoAlura extends React.Component {
             <>
                 <Topo />
 
-                <ComponentCursoAlura />
+                <ComponentDica />
 
                 <Footer />
             </>
@@ -20,4 +20,4 @@ class CursoAlura extends React.Component {
     }
 }
 
-export default CursoAlura;
+export default Dica;

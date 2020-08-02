@@ -1,7 +1,7 @@
 :octocat:
 
 Este projeto foi iniciado com o [Create React App](https://github.com/facebook/create-react-app)<br>
- `$ npx create-react-app kevenflix`
+ `$ npx create-react-app kevenRdr2`
 
 ### Requisistos: :pencil:
 - [Node js](https://nodejs.org/en/)

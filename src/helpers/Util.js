@@ -1,7 +1,7 @@
 export default class Util {
 
     static get NOME_PROJETO() {
-        return 'KevenFlix';
+        return 'kevenRdr2';
     }
 
     static get COR() {

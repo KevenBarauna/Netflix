@@ -4,14 +4,14 @@ import { BrowserRouter, Route, Redirect, Switch } from 'react-router-dom';
 import Page404 from './../view/Page404';
 import Home from './../view/Home';
 import Login from './../view/Login';
-import CursoAlura from './../view/CursoAlura';
+import Dica from './../view/Dica';
 
 const MainRoute = () => (
     < BrowserRouter >
         <Switch>
             <Route path='/home' component={Home} />
             <Route path='/login' component={Login} />
-            <Route path='/cursoAlura' component={CursoAlura} />
+            <Route path='/cursoAlura' component={Dica} />
             <Route path='/' component={Home} exact />
             <Route path='/404' component={Page404} />
             <Redirect to='/404' />
