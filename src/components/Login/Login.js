@@ -36,7 +36,7 @@ const Login = (props) => {
 
                     <Row style={{ textAlign: 'center', marginTop: '30px' }}>
                         <Form.Group controlId="formBasicCheckbox" style={{ width: '100%' }}>
-                            <Form.Label className='login-criar-conta'>Novo no Kevenflix? <Link to='/404'>Inscreva-se agora.</Link></Form.Label>
+                            <Form.Label className='login-criar-conta'>Novo no kevenRdr2? <Link to='/404'>Inscreva-se agora.</Link></Form.Label>
                         </Form.Group>
                     </Row>
 

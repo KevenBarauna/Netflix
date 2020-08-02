@@ -11,7 +11,7 @@ function Topo() {
             <Row style={{ padding: '10px' }}>
                 <Col className='topo-div-imagem' sm={12} md={4} lg={4}>
                     <Link to='/home'>
-                        <img className='topo-imagem-logo' src={imagemLogo} alt='logo KevenFlix' ></img>
+                        <img className='topo-imagem-logo' src={imagemLogo} alt='logo kevenRdr2' ></img>
                     </Link>
                 </Col>
                 <Col className='topo-nav' sm={12} md={7} lg={7}>
