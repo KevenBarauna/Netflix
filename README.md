@@ -50,6 +50,7 @@ font-size: 20px;
 # Dicas :speech_balloon:
 Para criar a logo online você pode fazer no [fontmeme](https://fontmeme.com/netflix-font/)<br>
 Para entender mais é possível assistir um mini curso em [Alura](https://www.alura.com.br/imersao-react/aula01-react-aluraflix)<br>
+[Emojis](https://www.webfx.com/tools/emoji-cheat-sheet/)
 
 # Cores :art:
 Preto - #141414<br>

@@ -16,7 +16,7 @@ function Topo() {
                 </Col>
                 <Col className='topo-nav' sm={12} md={7} lg={7}>
                     <Row className='topo-item'>
-                        <li><Link to='/404'>Alura</Link></li>
+                        <li><Link to='/cursoAlura'>Alura</Link></li>
                         <li><Link to='/404'>Udemy</Link></li>
                         <li><Link to='/404'>Youtube</Link></li>
                         <li><Link to='/404'>Outros</Link></li>

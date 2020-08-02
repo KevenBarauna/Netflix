@@ -29,11 +29,10 @@ const Pagina404 = (props) => {
     return (
         <>
             <div className='pagina-404-container'>
-                <Col className='pagina-404-col' style={{ marginLeft: '35%', width: '600px' }}>
+                <Col className='pagina-404-col'>
                     <img style={{ height: '450px' }} src={sortearImagem()} alt={'Imagem 404 imagemModelo01'}></img>
-
                 </Col>
-                <Col className='pagina-404-col' style={{ width: '900px' }}>
+                <Col className='pagina-404-col'>
                     <p className='pagina-404-titulo'>Awww.. não.</p>
                     <p className='pagina-404-subtitulo'>Isso é um Erro 404!</p>
                     <p className='pagina-404-link'>{link}</p>
